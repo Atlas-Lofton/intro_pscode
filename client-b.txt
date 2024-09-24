@@ -1,4 +1,16 @@
-# Client Task B #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+open box== 0
+scan package = +2
 
+If (packages and boxes are available) then
+{
+1 set box on platform
+2 open box with box cutter, keeping flaps intact
+3 scan package 
+4 repeat step 3 until == 50
+5 seal box
+}
+
+else
+{
+go on lunch break
+}

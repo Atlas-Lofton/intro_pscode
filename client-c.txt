@@ -1,4 +1,42 @@
-# Client Task C #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+middle is directly in front of entrance
+close is near entrance
+gothic far right corner
+romance mid right corner
+horror close right corner
+western far middle
+classic mid middle
+genfic close middle
+biography far left corner
+music mid left corner
+checkout close left corner
 
+When app is booted,
+gps detect if user is in warehouse
+
+if user is in warehouse
+print ("What are you looking for?)
+button = what are you looking for?
+when button is selected
+dropdown box
+[gothic, romance, horror, western, classic,  genfic, biography, music, checkout]
+
+print directions related to location
+first direction
+gothic, romance, horror= walk east until wall
+western, classic, genfic= walk north
+biography, music= walk west until wall
+checkout= if mid or east, walk west until wall, if already west, go to second direction
+second direction
+gothic, wester, biography= walk north until wall
+romance, classic, music= walk north until halfway through store
+horror, genfic = walk north until 1/3 through store
+checkout= walk south until corner
+
+
+if customer is in front of product
+print ("You're here!)
+else
+continue directions
+
+else
+print ("Come on down, then open your app.")

@@ -1,4 +1,43 @@
-# Client Task A #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
+int lottery range (1, 10)
+int input lotter range (1, 10)
+{
+if (new player)
+print ("Welcome!)
 
+else,
+print ("Try again!")
+
+button = ("Let's start!")
+if button let's start is pressed,
+print ("Type a number between 1 to 10.")
+
+if input lottery number is between 1 and 10
+run as normal
+
+else
+{
+print ("Please, pick a number from 1 to 10)
+}
+When button go is pressed
+{
+(generate int >1 and <10 number generated = correct lottery)
+}
+If number entered == "correct lottery"
+{
+print ("That's right! The number is ["correct lottery"])
+}
+else
+{
+if try =<4
+print ("Try again!") button = "try again!"
+When button try again is selected
+(generate int lottery) 
+
+else
+{
+print ("That's too bad.") 
+button = "start over"
+
+when button start over is selected, return to new player screen
+}
+}
